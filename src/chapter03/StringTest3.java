@@ -54,7 +54,13 @@ public class StringTest3 {
 			sb.append(i);
 		}
 		
+		// format
+		String name = "둘리";
+		int score = 100;
 		
+		System.out.println(name + "님의 점수는 " + score + "입니다.");
+		String str5 = String.format("%s님의 점수는 %d입니다.", name, score);
+		System.out.println(str5);
 	}
 
 }
